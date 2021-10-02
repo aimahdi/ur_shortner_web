@@ -19,7 +19,7 @@ async function submitfunction() {
         method: 'POST',
         body: JSON.stringify( params )  
     };
-    await fetch( 'cleanuri.com/api/v1/shorten', options )
+    await fetch( 'https://cleanuri.com/api/v1/shorten', options )
         .then( response => response.json() )
         .then( response => {
             // Do something with response.
