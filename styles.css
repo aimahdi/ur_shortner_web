@@ -1,0 +1,59 @@
+ body {
+     background-color: cadetblue;
+     margin: 0;
+     padding: 0;
+     width: 100vw;
+ }
+ 
+ .header {
+     height: 25vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ h1 {
+     font-size: 500%;
+     color: indigo;
+ }
+ 
+ .body_content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -moz-transform: translateX(-50%) translateY(-50%);
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+ }
+ 
+ label {
+     padding: 10px;
+     font-size: 200%;
+     color: indigo;
+     font-weight: bold;
+ }
+ 
+ input {
+     padding: 10px;
+     font-size: 200%;
+     width: 100%;
+     background-color: transparent;
+     border: 3px solid indigo;
+ }
+ 
+ input:focus {
+     outline: none;
+ }
+ 
+ placeholder {
+     color: indigo
+ }
+ 
+ button {
+     padding: 10px;
+     background-color: indigo;
+     color: white;
+     text-align: center;
+     width: 10vw;
+     border-radius: 10px;
+ }
