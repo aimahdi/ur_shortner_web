@@ -15,9 +15,11 @@ async function submitfunction() {
     const params = {
         'url': urlInput.value,
     };
+
     const options = {
         method: 'POST',
-        body: JSON.stringify( params )  
+        body: JSON.stringify( params ),
+        mode: 'no-cors'
     };
     await fetch( 'https://cleanuri.com/api/v1/shorten', options )
         .then( response => response.json() )
